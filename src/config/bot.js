@@ -1,6 +1,6 @@
 import { logger } from '../utils/logger.js';
 
-bot = commands.bot(command_prefix="?"
+
 export const botConfig = {
   // =========================
   // BOT PRESENCE (what users see under the bot name)
