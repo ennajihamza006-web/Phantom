@@ -14,7 +14,7 @@ export const shopItems = [
 cooldown: 86400000,
         effect: {
             type: 'command_boost',
-            command: '?',
+            command: 'work',
             uses: 1
         }
     },
