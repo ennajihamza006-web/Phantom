@@ -12,7 +12,7 @@ import birthdaySetchannel from './modules/birthday_setchannel.js';
 
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 export default {
-    data: new SlashCommandBuilder()
+    data: new ?CommandBuilder()
         .setName('birthday')
         .setDescription('Birthday system commands')
         .addSubcommand(subcommand =>
