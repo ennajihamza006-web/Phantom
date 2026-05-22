@@ -42,7 +42,7 @@ export default {
                 userId: interaction.user.id,
                 targetUserId: targetUser.id,
                 guildId,
-                commandName: 'birthday_info'
+                commandName: '?birthday_info'
             });
         } catch (error) {
             logger.error("Birthday info command execution failed", {
