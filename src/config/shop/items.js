@@ -13,8 +13,8 @@ export const shopItems = [
         maxQuantity: 5,
 cooldown: 86400000,
         effect: {
-            type: '?',
-            command: 'work',
+            type: 'command_boost',
+            command: '?',
             uses: 1
         }
     },
