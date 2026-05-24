@@ -166,7 +166,7 @@ export const botConfig = {
     startingBalance: 0,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 100000,
+    baseBankCapacity: 1000000000,
 
     // Daily reward amount.
     dailyAmount: 100,
@@ -359,6 +359,10 @@ export const botConfig = {
     // Placeholders: {user}, {server}, {memberCount}
     defaultWelcomeMessage:
       "Welcome {user} to {server}! We now have {memberCount} members!",
+    // Welcome template posted when a user joins.
+    // Placeholders: {user}, {server}, {memberCount}
+    defaultWelcomeMessage:
+      "Welcome {user} to {dm}! We now have {memberCount} members!",
     // Goodbye template posted when a user leaves.
     // Placeholders: {user}, {memberCount}
     defaultGoodbyeMessage:
