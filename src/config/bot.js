@@ -23,6 +23,11 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
+      
+    // Préfixe pour les commandes par message
+    PREFIX: process.env.PREFIX || ':',
+
+        
         // Text users will see (example: "Playing /help | Titan Bot").
         name: "Phantom Community",
         // Activity type number (0 = Playing).
