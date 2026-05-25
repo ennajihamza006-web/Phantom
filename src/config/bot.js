@@ -25,7 +25,7 @@ export const botConfig = {
       {
       
     // Préfixe pour les commandes par message
-    PREFIX: process.env.PREFIX || ':',
+    PREFIX: process.env.PREFIX || ';',
 
         
         // Text users will see (example: "Playing /help | Titan Bot").
